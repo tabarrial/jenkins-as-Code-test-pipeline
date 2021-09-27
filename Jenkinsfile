@@ -1,7 +1,7 @@
 pipeline {
   agent any
   environment {
-    IMAGE_CONTAINER = "local_trivy:latest"
+    IMAGE_CONTAINER = "hello-world"
   }
   stages('Global') {
     stage('Build') {
